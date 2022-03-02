@@ -18,8 +18,8 @@ function showHome() {
     <section>
         <figure>
         <nav>
-            <img src="" onclick="">
-            <figcaption></figcaption>
+            <img src="${model.images.mammamia}" alt="mamma-mia" height="150px" width="100px" onclick="mammamia();">
+            <figcaption>Mamma Mia!</figcaption>
         </nav>
         </figure>        
     </section>
@@ -27,7 +27,7 @@ function showHome() {
         <figure>
         <nav>
             <img src="" onclick="">
-            <figcaption></figcaption>
+            <figcaption>Harry Potter</figcaption>
         </nav>
         </figure>        
     </section>
@@ -35,7 +35,7 @@ function showHome() {
         <figure>
         <nav>
             <img src="" onclick="">
-            <figcaption></figcaption>
+            <figcaption>Lord Of The Rings</figcaption>
         </nav>
         </figure>        
     </section>
@@ -43,11 +43,18 @@ function showHome() {
         <figure>
         <nav>
             <img src="" onclick="">
-            <figcaption></figcaption>
+            <figcaption>The Hobbit</figcaption>
         </nav>
         </figure>        
     </section>
     </nav>
+    ${getFooter()}
+    `;
+}
+
+function mammamia() {
+    main.innerHTML = /*HTML*/`
+    ${getHeader()}
     ${getFooter()}
     `;
 }
