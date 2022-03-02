@@ -1,0 +1,30 @@
+Film informasjon side
+-Lag en side med noen forskjellige filmer
+-Gjør at alle filmene har en onclick som gjør at man kommer til en side med info om filmen
+-Onclick skal være bilde av film/skuespiller
+-Ha info om filmen og casten til filmen
+-Gjør at alle castmembers har en egen side med info om skuespilleren
+-Prøve å få til at man kan trykke på tilbake knappen i nettleseren for å gå til forrige siden
+-Trenger bare "Home" man kan trykke på for å gå tilbake til alle de forskjellige filmene
+
+
+Ekstra ting å ha med:
+-Bilder
+-
+
+Fremgangsmåte:
+-Bruke <nav> for å komme til de forskjellige sidene
+-Lage en const med main slik at man slipper å skrive hele document.getElementById hver gang
+
+
+
+
+Oversikt for de forskjellige filmene:
+<!-- <section>
+    <figure>
+    <nav>
+        <img src="">
+        <figcaption></figcaption>
+    </nav>
+    </figure>        
+</section> -->
