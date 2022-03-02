@@ -23,7 +23,7 @@ Oversikt for de forskjellige filmene:
 <!-- <section>
     <figure>
     <nav>
-        <img src="">
+        <img src="" onclick="">
         <figcaption></figcaption>
     </nav>
     </figure>        

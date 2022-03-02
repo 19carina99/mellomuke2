@@ -14,6 +14,40 @@ function showHome() {
     main.innerHTML = /*HTML*/`
     ${getHeader()}
     <h1>Film informasjon!</h1>
+    <nav>
+    <section>
+        <figure>
+        <nav>
+            <img src="" onclick="">
+            <figcaption></figcaption>
+        </nav>
+        </figure>        
+    </section>
+    <section>
+        <figure>
+        <nav>
+            <img src="" onclick="">
+            <figcaption></figcaption>
+        </nav>
+        </figure>        
+    </section>
+    <section>
+        <figure>
+        <nav>
+            <img src="" onclick="">
+            <figcaption></figcaption>
+        </nav>
+        </figure>        
+    </section>
+    <section>
+        <figure>
+        <nav>
+            <img src="" onclick="">
+            <figcaption></figcaption>
+        </nav>
+        </figure>        
+    </section>
+    </nav>
     ${getFooter()}
     `;
 }
