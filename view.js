@@ -55,6 +55,8 @@ function showHome() {
 function mammamia() {
     main.innerHTML = /*HTML*/`
     ${getHeader()}
+    <h1>Mamma Mia!</h1>
+        <img src="${model.images.mammamia}" height="350px" width="250px">
     ${getFooter()}
     `;
 }
